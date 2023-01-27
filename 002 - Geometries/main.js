@@ -91,7 +91,7 @@ function addShapes() {
 	Plane.position.set(2.5, 0, -2.5)
 	scene.add(Plane)
 
-	const RingGeometry = new THREE.RingGeometry(2, 2, 32, 1)
+	const RingGeometry = new THREE.RingGeometry(0.5, 1, 32, 1)
 	const Ring = new THREE.Mesh(RingGeometry, material)
 	Ring.position.set(-2.5, 0, -2.5)
 	scene.add(Ring)
@@ -108,8 +108,13 @@ function addShapes() {
 
 	const TorusGeometry = new THREE.TorusGeometry(1, 1, 16, 100)
 	const Torus = new THREE.Mesh(TorusGeometry, material)
+	Torus.position.set(7.5, 0, -2.5)
+	scene.add(Torus)
+
 	const TorusKnotGeometry = new THREE.TorusKnotGeometry(1, 0.3, 64, 8, 2, 3)
 	const TorusKnot = new THREE.Mesh(TorusKnotGeometry, material)
+	TorusKnot.position.set(-7.5, 0, -2.5)
+	scene.add(TorusKnot)
 }
 
 function animate() {
