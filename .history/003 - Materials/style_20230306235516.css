@@ -1,0 +1,24 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	overflow: hidden;
+}
+
+.foot {
+	position: absolute;
+	bottom: 12%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.navigation {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+}

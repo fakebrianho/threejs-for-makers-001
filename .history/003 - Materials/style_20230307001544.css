@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	overflow: hidden;
+}
+
+.foot {
+	position: absolute;
+	bottom: 12%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.navigation {
+	display: flex;
+	width: 80%;
+	/* align-items: center; */
+	justify-content: space-between;
+}
+
+.previous {
+	width: 80px;
+	height: 40px;
+}
+.next {
+	width: 80px;
+	height: 40px;
+}
+
+h1 {
+	/* position: relative; */
+	/* position: fixed; */
+	/* text-align: center; */
+	/* bottom: 400px; */
+	/* color: white; */
+}

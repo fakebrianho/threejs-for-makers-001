@@ -1,0 +1,26 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	overflow: hidden;
+}
+
+.foot {
+	position: relative;
+	/* height: 20px; */
+	/* background: red; */
+	/* background-color: 'red'; */
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	width: 100%;
+}
+
+.navigation {
+	/* position: absolute; */
+	/* bottom: 15%; */
+	/* transform: translate(-50%, -50%); */
+	/* width: 80%; */
+}
